@@ -1,0 +1,18 @@
+Todo List
+
+- Review current files
+- Fix bot.py (token, setup hook, PING_ROLE_ID)
+- Add requirements.txt
+- Validate syntax (py_compile)
+- Provide run instructions
+- Add dotenv support and .env
+- Run bot locally
+- Restart bot process
+- Design modular button config schema
+- Implement button config parsing and UI generation
+- Add admin commands to manage buttons
+- Test buttons and finalize
+
+Notes:
+- Buttons will support emoji and style (primary, secondary, success, danger, link)
+- Role extraction will write roles.json on startup from the first guild the bot is in
